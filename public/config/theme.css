@@ -1,10 +1,10 @@
 :root {
   --primary: black;
-  --primary-text: white;
+  --primary-text: black;
   --secondary: black;
-  --secondary-text: #ffffff;
-  --accent: #505050;
-  --accent-text: #ffffff;
+  --secondary-text: white;
+  --accent: #DFAF6F;
+  --accent-text: black;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -58,38 +58,6 @@ header .logo{
     margin-left: 50px;
     text-transform: uppercase;
     font-size: 15px;
-}
-header .search-box{
-    flex: 1;
-    position: relative;
-}
-.search-box input{
-    width:100%;
-    height: 40px;
-    border: none;
-    outline: none;
-    background:#f2f2f2;
-    border-radius: 30px;
-    color:gray;
-    font-size: 16px;
-    padding-left: 5px;
-    padding-right: 40px;
-    text-align: center;
-     
-}
- 
-.search-box button{
-    cursor: pointer;
-    width:40px;
-    height: 40px;
-    border-radius: 30px;
-    border:none;
-    position: absolute;
-    top:0;
-    right: 0;
-    transform: scale(0.9);
-    background: green;
-    color: #fff;
 }
 header ul {
     flex:2;
