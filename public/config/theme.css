@@ -34,11 +34,11 @@ body{
 header{
     width:100%;
     height: 100px;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: 0;
+    position:fixed;
+    z-index: 99;
     box-shadow: 0 0 10px #000;
     background: #A5C9FF;
 }
@@ -86,8 +86,9 @@ header .menu{
     }
     header ul{
         position: fixed;
-        top:100px;
-        right: -100%;
+        top:0;
+        right: 0;
+        margin: 0;
         background: rgba(0,0,0,0.5);
         height: calc(100vh - 100px);
         width:50%;
