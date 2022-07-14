@@ -96,14 +96,14 @@
       border-top: 3px solid #eee;
     }
     .navbar .nav-btn label:hover, .navbar #nav-check:checked ~ .nav-btn label {
-      background-color: #A5FFC9;
+      background-color: #A5C9FF;
     }
     .navbar .nav-links{
       position: absolute;
       display: block;
       text-align: center;
       width: 50%;
-      background-color: #A5FFC9;
+      background-color: #A5C9FF;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
       top: 70px;
