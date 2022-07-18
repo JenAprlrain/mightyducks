@@ -100,7 +100,7 @@
     }
     .navbar .nav-links{
       position: absolute;
-      display: block;
+      display: inline-block;
       text-align: center;
       width: 50%;
       background-color: #A5C9FF;
@@ -120,7 +120,6 @@
    
     /* when nav toggle button is checked */
     .navbar #nav-check:checked ~ .nav-links {
-      height: [calc(100vh - 200px)];
       overflow-y: auto;
     }
     .navbar .nav-links .loginBtn {
@@ -130,6 +129,4 @@
       font-weight: bold;
       color: rgb(9, 14, 90);
     }
-     
-   
   }
