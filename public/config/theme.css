@@ -100,7 +100,7 @@
     }
     .navbar .nav-links{
       position: absolute;
-      display: inline-block;
+      display: block;
       text-align: center;
       width: 50%;
       background-color: #A5C9FF;
