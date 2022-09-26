@@ -1,6 +1,6 @@
 {
-  "short_name": "Human Palm",
-  "name": "Human Palm",
+  "short_name": "Halloween Ghostie",
+  "name": "Halloween Ghostie",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#FF7606",
   "background_color": "#ffffff"
 }
