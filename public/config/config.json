@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x3b060b93459553b52639ef26eb4024d8491f5608",
-  "SCAN_LINK": "https://ftmscan.com/address/0x3b060b93459553b52639ef26eb4024d8491f5608",
+  "CONTRACT_ADDRESS": "0x3D4B2e54462C509b6cecA9A02C76c71a286c7e15",
+  "SCAN_LINK": "https://testnet.ftmscan.com/address/0x3d4b2e54462c509b6ceca9a02c76c71a286c7e15",
   "NETWORK": {
     "NAME": "Fantom",
     "SYMBOL": "FTM",
@@ -10,7 +10,7 @@
   "SYMBOL": "Ghostie",
   "MAX_SUPPLY": 300,
   "WEI_COST": 0,
-  "DISPLAY_COST": 20,
+  "DISPLAY_COST": 1,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "NFTKey",
   "MARKETPLACE_LINK": "https://nftkey.app",
