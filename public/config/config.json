@@ -9,7 +9,7 @@
   "NFT_NAME": "Halloween Ghostie",
   "SYMBOL": "Ghostie",
   "MAX_SUPPLY": 300,
-  "WEI_COST": 0,
+  "WEI_COST": 1000000000000000000,
   "DISPLAY_COST": 1,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "NFTKey",
