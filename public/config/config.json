@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0x3D4B2e54462C509b6cecA9A02C76c71a286c7e15",
-  "SCAN_LINK": "https://testnet.ftmscan.com/address/0x3d4b2e54462c509b6ceca9a02c76c71a286c7e15",
+  "CONTRACT_ADDRESS": "0x3A9d280520f2A2e661102A12f3aA51B614345db6",
+  "SCAN_LINK": "https://ftmscan.com/",
   "NETWORK": {
-    "NAME": "Fantom Testnet",
+    "NAME": "Fantom",
     "SYMBOL": "FTM",
-    "ID": 4002
+    "ID": 250
   },
   "NFT_NAME": "Halloween Ghostie",
   "SYMBOL": "Ghostie",
   "MAX_SUPPLY": 300,
-  "WEI_COST": 1000000000000000000,
-  "DISPLAY_COST": 1,
+  "WEI_COST": 20000000000000000000,
+  "DISPLAY_COST": 20,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "NFTKey",
   "MARKETPLACE_LINK": "https://nftkey.app",
