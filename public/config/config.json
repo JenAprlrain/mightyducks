@@ -2,15 +2,15 @@
   "CONTRACT_ADDRESS": "0x3A9d280520f2A2e661102A12f3aA51B614345db6",
   "SCAN_LINK": "https://ftmscan.com/",
   "NETWORK": {
-    "NAME": "Fantom",
-    "SYMBOL": "FTM",
-    "ID": 250
+    "NAME": "Avalanche",
+    "SYMBOL": "AVAX",
+    "ID": 43114
   },
-  "NFT_NAME": "Halloween Ghostie",
-  "SYMBOL": "Ghostie",
-  "MAX_SUPPLY": 300,
+  "NFT_NAME": "Mighty Ducks",
+  "SYMBOL": "Duck",
+  "MAX_SUPPLY": 100,
   "WEI_COST": 20000000000000000000,
-  "DISPLAY_COST": 20,
+  "DISPLAY_COST": 2,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "NFTKey",
   "MARKETPLACE_LINK": "https://nftkey.app",

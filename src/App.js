@@ -66,7 +66,7 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 700px;
+  width: 1200px;
   @media (min-width: 767px) {
     width: 600px;
   }
@@ -201,11 +201,11 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} style={{marginTop: 100, width:400}}/>
+        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} style={{marginTop: 80, width:600}}/>
+        <StyledLogo alt={"logo"} src={"/config/images/MD.gif"} style={{width:300}}/>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -371,10 +371,6 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
-            />
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
