@@ -201,7 +201,7 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} style={{marginTop: 80, width:600}}/>
+        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} style={{marginTop: 80, width: 600, maxWidth:"100%"}}/>
         <StyledLogo alt={"logo"} src={"/config/images/MD.gif"} style={{width:300}}/>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>

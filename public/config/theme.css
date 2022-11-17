@@ -46,6 +46,7 @@
   }
   .navbar .nav-header{
     display: inline;
+    max-width: 100%;
   }
   .navbar .nav-header .nav-logo{
     display: inline-block;
