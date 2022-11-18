@@ -201,8 +201,12 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} style={{marginTop: 80, width: 600, maxWidth:"100%"}}/>
-        <StyledLogo alt={"logo"} src={"/config/images/MD.gif"} style={{width:300}}/>
+        <s.SpacerSmall />
+        <s.SpacerSmall />
+        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} style={{marginTop: 80, width: 400, maxWidth:"100%", borderRadius: "3%" }}/>
+        <s.SpacerSmall />
+        <s.SpacerSmall />
+        <StyledLogo alt={"logo"} src={"/config/images/MD.gif"} style={{width:500}}/>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
